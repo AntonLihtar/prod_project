@@ -10,10 +10,10 @@ export function classNames(
         cls,
         ...additional.filter(Boolean),
         ...Object.entries(mods)
-          .filter((_, value) => Boolean(value))
+          .filter(([className, value]) => Boolean(value))
           .map(([className]) => className)
     ].join(' ')
-      .trim();
+      // .trim();
 }
 
 
