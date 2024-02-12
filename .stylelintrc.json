@@ -2,7 +2,7 @@
   "extends": "stylelint-config-standard-scss",
   "ignoreFiles": ["build/css/**.css"],
   "rules": {
-    "indentation": [4],
+    "indentation": [2],
     "selector-class-pattern": null
   }
 }
